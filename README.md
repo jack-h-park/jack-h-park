@@ -71,4 +71,4 @@ through the architecture, decision logs, or dashboards in a conversation.
 
 ---
 
-📫 [jackhpark.com](https://www.jackhpark.com)
+📫 [jackhpark.com](https://www.jackhpark.com) · [LinkedIn](https://www.linkedin.com/in/jackhpark)
