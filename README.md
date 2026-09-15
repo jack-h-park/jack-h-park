@@ -58,7 +58,6 @@ Built to be read as much as run.
 | [**jackhpark-studio**](https://github.com/jack-h-park/jackhpark-studio) | Portfolio platform — Next.js 15, Notion CMS, production RAG chat, Langfuse + PostHog observability |
 | [**stock-trading-skills**](https://github.com/jack-h-park/stock-trading-skills) | Skill-first agentic brokerage trading layer — strategy, guardrails, provider adapters |
 | [**stock-portfolio-observatory**](https://github.com/jack-h-park/stock-portfolio-observatory) | Read-only portfolio monitoring dashboard for KR/US investment data |
-| [**ai-skills**](https://github.com/jack-h-park/ai-skills) | Reusable audit playbooks and routing contracts for AI-assisted engineering work |
 | [**react-notion-x**](https://github.com/jack-h-park/react-notion-x) | Fork of the React renderer for Notion, used by the portfolio stack |
 
 Much of the PM intelligence and agent-operations work lives in private repositories. Happy to walk
