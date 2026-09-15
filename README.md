@@ -28,9 +28,9 @@ Deliberately not an autopilot: every gate is a place a human says yes.
 **2. Agentic operations** — a versioned control plane for long-running agents: profiles, skills,
 distribution policies, runbooks. Behavior lives in `SKILL.md` contracts rather than in code, which
 makes agent changes reviewable as diffs. The same pattern drives an
-[agentic brokerage trading layer](https://github.com/jack-h-park) built as a provider abstraction
-with hard guardrails and human-in-the-loop execution — a small, bounded-risk domain is the honest
-way to test whether an agent operating model actually holds up.
+[agentic brokerage trading layer](https://github.com/jack-h-park/stock-trading-skills) built as a
+provider abstraction with hard guardrails and human-in-the-loop execution — a small, bounded-risk
+domain is the honest way to test whether an agent operating model actually holds up.
 
 **3. Production RAG and LLM observability** —
 [**jackhpark-studio**](https://github.com/jack-h-park/jackhpark-studio) is my portfolio platform and
@@ -54,7 +54,10 @@ Built to be read as much as run.
 
 | Repo | What it is |
 |---|---|
+| [**pm-intelligence-engine**](https://github.com/jack-h-park/pm-intelligence-engine) | 7-stage PM decision workflow engine — typed stages, human gates, provider-neutral LLM wiring |
 | [**jackhpark-studio**](https://github.com/jack-h-park/jackhpark-studio) | Portfolio platform — Next.js 15, Notion CMS, production RAG chat, Langfuse + PostHog observability |
+| [**stock-trading-skills**](https://github.com/jack-h-park/stock-trading-skills) | Skill-first agentic brokerage trading layer — strategy, guardrails, provider adapters |
+| [**stock-portfolio-observatory**](https://github.com/jack-h-park/stock-portfolio-observatory) | Read-only portfolio monitoring dashboard for KR/US investment data |
 | [**ai-skills**](https://github.com/jack-h-park/ai-skills) | Reusable audit playbooks and routing contracts for AI-assisted engineering work |
 | [**react-notion-x**](https://github.com/jack-h-park/react-notion-x) | Fork of the React renderer for Notion, used by the portfolio stack |
 
